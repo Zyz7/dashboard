@@ -1,5 +1,8 @@
 # Dashboard
 
+It is a tool for visualizing and analyzing data, this data is displayed in tables, graphs, or other visualizations. 
+This project aims to show only the frontend part.
+
 ## languages used
 
 - css3
