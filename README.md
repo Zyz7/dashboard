@@ -1,20 +1,42 @@
-# Dashboard
+# 📊 Dashboard
 
 <img width="1402" height="847" alt="screen101800" src="https://github.com/user-attachments/assets/c44b465a-4d52-40a9-8413-03aa92d5b12b" />
 
-It is a tool for visualizing and analyzing data, this data is displayed in tables, graphs, or other visualizations. 
-This project aims to show only the frontend part.
+An admin dashboard built as a **pure frontend project**, focused on visualizing data
+through summary cards, tables and a charted reports overview.
 
-## languages used
+🔗 **Live demo:** [https://dashboard-wry6.onrender.com](https://dashboard-wry6.onrender.com)
 
-- css3
-- html5
-- javascript
-- bootstrap5
+## ✨ Features
 
-## tools used
+- Collapsible sidebar with multi-level navigation menus (Bootstrap collapse)
+- Search bar and user avatar dropdown in the top navbar
+- KPI cards with progress metrics and month-over-month change
+- Users table (striped, responsive)
+- Grouped bar chart for the **Reports Overview** section
+- Fully responsive layout (desktop, tablet and mobile)
+- No backend required — static files only
 
-- **[chart](https://www.chartjs.org/)**
-- **[render](https://render.com/)**
-- **[boxicons](https://boxicons.com/)**
-- **[tobiasahlin](https://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/)**
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+| ---------- | ----- |
+| [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) | Page structure |
+| [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) | Custom styles (`assets/css/style.css`) |
+| [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | Interactivity (`assets/js/app.js`) |
+| [Bootstrap 5.3](https://getbootstrap.com) | Layout, grid, components (via CDN) |
+| [Boxicons](https://boxicons.com) | Icon set (via CDN) |
+| [Chart.js](https://www.chartjs.org) | Bar chart for reports (via CDN) |
+| [Render](https://render.com) | Static site hosting |
+
+
+## ⚙️ Running Locally
+
+Since this is a static site, no build step is required. Just serve the `public/` folder:
+
+```bash
+# Option 1: with Node
+npx serve public
+
+# Option 2: with Python
+python -m http.server -d public 8000
